@@ -1,0 +1,12 @@
+#!/usr/local/bin/bash
+
+echo "How old are you?"
+
+read age
+
+if [ $age -ge 20 ]
+then
+	echo "You can drink"
+else
+	echo "You are too young to drink"
+fi

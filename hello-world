@@ -1,0 +1,11 @@
+#!/usr/local/bin/bash
+
+who="World"
+echo "Hello $who!"
+echo -e "test\tTab\nnewline"
+echo "Hello $(whoami)"
+echo -e "\n--------------\n"
+echo "Who are you?"
+
+read who
+echo "Hello ${who}"

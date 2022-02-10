@@ -1,0 +1,8 @@
+#!/usr/local/bin/bash
+
+d_files=/Users/rustamgarayev/Downloads/*
+
+for file in $d_files
+do
+	echo $(basename $file)
+done
